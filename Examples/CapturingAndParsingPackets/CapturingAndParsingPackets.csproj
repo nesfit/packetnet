@@ -30,9 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SharpPcap, Version=4.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\SharpPcap\bin\Debug\net451\SharpPcap.dll</HintPath>
+    <Reference Include="SharpPcap">
+      <HintPath>..\..\Test\lib\SharpPcap\SharpPcap.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
