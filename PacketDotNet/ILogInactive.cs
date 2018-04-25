@@ -6,7 +6,7 @@ using System.Diagnostics;
 
 namespace PacketDotNet
 {
-#if !DEBUG
+#if !DEBUG_PACKETDOTNET
     // For Release builds we disable logging by using this class
     // in place of a log4net logger
     internal class ILogInactive
@@ -38,211 +38,211 @@ namespace PacketDotNet
         }
 #endif
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void Debug(Object message)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void Debug(Object message, Exception exception)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void DebugFormat(String format, params Object[] args)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void DebugFormat(IFormatProvider provider, String format, params Object[] args)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void DebugFormat(String format, Object arg0)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void DebugFormat(String format, Object arg0, Object arg1)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void DebugFormat(String format, Object arg0, Object arg1, Object arg2)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void Error(Object message)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void Error(Object message, Exception exception)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void ErrorFormat(String format, params Object[] args)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void ErrorFormat(IFormatProvider provider, String format, params Object[] args)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void ErrorFormat(String format, Object arg0)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void ErrorFormat(String format, Object arg0, Object arg1)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void ErrorFormat(String format, Object arg0, Object arg1, Object arg2)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void Fatal(Object message)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void Fatal(Object message, Exception exception)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void FatalFormat(String format, params Object[] args)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void FatalFormat(IFormatProvider provider, String format, params Object[] args)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void FatalFormat(String format, Object arg0)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void FatalFormat(String format, Object arg0, Object arg1)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void FatalFormat(String format, Object arg0, Object arg1, Object arg2)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void Info(Object message)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void Info(Object message, Exception exception)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void InfoFormat(String format, params Object[] args)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void InfoFormat(IFormatProvider provider, String format, params Object[] args)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void InfoFormat(String format, Object arg0)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void InfoFormat(String format, Object arg0, Object arg1)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void InfoFormat(String format, Object arg0, Object arg1, Object arg2)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void Warn(Object message)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void Warn(Object message, Exception exception)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void WarnFormat(String format, params Object[] args)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void WarnFormat(IFormatProvider provider, String format, params Object[] args)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void WarnFormat(String format, Object arg0)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void WarnFormat(String format, Object arg0, Object arg1)
         {
             throw new NotImplementedException();
         }
 
-        [Conditional("DEBUG")]
+        [Conditional("DEBUG_PACKETDOTNET")]
         public void WarnFormat(String format, Object arg0, Object arg1, Object arg2)
         {
             throw new NotImplementedException();

@@ -37,7 +37,7 @@ namespace PacketDotNet.ARP
     [Serializable]
     public class ARPPacket : InternetLinkLayerPacket
     {
-#if DEBUG
+#if DEBUG_PACKETDOTNET
         private static readonly log4net.ILog Log =
  log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 #else
